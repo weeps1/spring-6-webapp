@@ -17,6 +17,7 @@ public class Author {
             inverseJoinColumns = @JoinColumn(name = "author_id"))
     private Set<Book> books;
 
+
     public Set<Book> getBooks() {
         return books;
     }
@@ -48,8 +49,7 @@ public class Author {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-<<<<<<< HEAD
-=======
+
 
     @Override
     public String toString() {
@@ -75,5 +75,5 @@ public class Author {
     public int hashCode() {
         return getId() != null ? getId().hashCode() : 0;
     }
->>>>>>> e5e112a (1st)
+
 }

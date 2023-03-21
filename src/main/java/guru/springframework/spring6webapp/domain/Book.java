@@ -48,8 +48,7 @@ public class Book {
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
-<<<<<<< HEAD
-=======
+
 
     @Override
     public String toString() {
@@ -75,5 +74,5 @@ public class Book {
     public int hashCode() {
         return getId() != null ? getId().hashCode() : 0;
     }
->>>>>>> e5e112a (1st)
+
 }
